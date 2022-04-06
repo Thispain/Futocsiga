@@ -1,0 +1,4 @@
+            // this.Controls.Add(this.Pn_Gamemode1);
+            // this.Controls.Add(this.panel1);			// Készen állsz?
+			// this.Controls.Add(this.panel2);
+			// this.Controls.Add(this.panel3);

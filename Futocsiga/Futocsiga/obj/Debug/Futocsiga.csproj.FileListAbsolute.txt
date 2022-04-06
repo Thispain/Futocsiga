@@ -1,0 +1,100 @@
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe.config
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.pdb
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csprojAssemblyReference.cache
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.resources
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Properties.Resources.resources
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.GenerateResource.cache
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.CoreCompileInputs.cache
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.exe
+D:\Feladatok\Esemény feladatok\EXE\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.pdb
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe.config
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.pdb
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Kezdokepernyo.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.exe
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.pdb
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form2.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form3.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form4.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\ha-Latn-NE\Futocsiga.resources.dll
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\hu-HU\Futocsiga.resources.dll
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.ha-Latn-NE.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.hu-HU.resources
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\ha-Latn-NE\Futocsiga.resources.dll
+C:\Users\Lenovo\Desktop\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\hu-HU\Futocsiga.resources.dll
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe.config
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.pdb
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\ha-Latn-NE\Futocsiga.resources.dll
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\hu-HU\Futocsiga.resources.dll
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csprojAssemblyReference.cache
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form2.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form3.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form4.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Kezdokepernyo.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Properties.Resources.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.ha-Latn-NE.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.hu-HU.resources
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.GenerateResource.cache
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.CoreCompileInputs.cache
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\ha-Latn-NE\Futocsiga.resources.dll
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\hu-HU\Futocsiga.resources.dll
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.exe
+D:\Feladatok\Programozás\Saját Feladatok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.pdb
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe.config
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.pdb
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\ha-Latn-NE\Futocsiga.resources.dll
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\hu-HU\Futocsiga.resources.dll
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form2.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form3.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form4.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Kezdokepernyo.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Properties.Resources.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.ha-Latn-NE.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.hu-HU.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.GenerateResource.cache
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.CoreCompileInputs.cache
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\ha-Latn-NE\Futocsiga.resources.dll
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\hu-HU\Futocsiga.resources.dll
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.exe
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.pdb
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.NevBekeres.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Teszt.resources
+F:\Imádat\ISKOLA\Saját Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.AssemblyReference.cache
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe.config
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.exe
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\Futocsiga.pdb
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\ha-Latn-NE\Futocsiga.resources.dll
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\bin\Debug\hu-HU\Futocsiga.resources.dll
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.AssemblyReference.cache
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form2.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form3.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form4.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Kezdokepernyo.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.NevBekeres.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Properties.Resources.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Teszt.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.ha-Latn-NE.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Form1.hu-HU.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.GenerateResource.cache
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.csproj.CoreCompileInputs.cache
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\ha-Latn-NE\Futocsiga.resources.dll
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\hu-HU\Futocsiga.resources.dll
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.exe
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.pdb
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Fuel.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Help.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.NewData.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.SelectData.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.Setup.resources
+F:\Imadat\ISKOLA\Saját_Feladatok\Programozás\Írandó Programok\3. Ugró csiga\Futocsiga\Futocsiga\obj\Debug\Futocsiga.UserControl1.resources
