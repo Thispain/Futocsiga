@@ -39,13 +39,7 @@ namespace Futocsiga
             this.cH_Nev = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cH_Tav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cH_Ido = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.La_TOnOff = new System.Windows.Forms.Label();
-            this.ProgB_Energiaszint = new System.Windows.Forms.ProgressBar();
-            this.label15 = new System.Windows.Forms.Label();
-            this.ProgB_Turbo = new System.Windows.Forms.ProgressBar();
-            this.La_Turbo = new System.Windows.Forms.Label();
             this.La_GasButton = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.progressBar3 = new System.Windows.Forms.ProgressBar();
@@ -74,16 +68,23 @@ namespace Futocsiga
             this.La_Time = new System.Windows.Forms.Label();
             this.La_Position = new System.Windows.Forms.Label();
             this.Bt_Rajt = new System.Windows.Forms.Button();
-            this.La_Szamlal = new System.Windows.Forms.Label();
+            this.La_ConsolePanel = new System.Windows.Forms.Label();
             this.Pb_Rajt = new System.Windows.Forms.PictureBox();
             this.Pb_Cel = new System.Windows.Forms.PictureBox();
             this.T_StopWatch = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.nUD_Tav = new System.Windows.Forms.NumericUpDown();
             this.LaT_Tav = new System.Windows.Forms.Label();
+            this.Pn_EnergyUI = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.La_TOnOff = new System.Windows.Forms.Label();
+            this.ProgB_Energiaszint = new System.Windows.Forms.ProgressBar();
+            this.label15 = new System.Windows.Forms.Label();
+            this.ProgB_Turbo = new System.Windows.Forms.ProgressBar();
+            this.La_Turbo = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -100,6 +101,7 @@ namespace Futocsiga
             ((System.ComponentModel.ISupportInitialize)(this.Pb_Rajt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pb_Cel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUD_Tav)).BeginInit();
+            this.Pn_EnergyUI.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -143,6 +145,7 @@ namespace Futocsiga
             // 
             // listView1
             // 
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.cH_Nev,
             this.cH_Tav,
@@ -167,76 +170,16 @@ namespace Futocsiga
             // 
             this.cH_Ido.Text = "Idő";
             // 
-            // La_TOnOff
-            // 
-            this.La_TOnOff.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.La_TOnOff.BackColor = System.Drawing.Color.Red;
-            this.La_TOnOff.Location = new System.Drawing.Point(231, 147);
-            this.La_TOnOff.Name = "La_TOnOff";
-            this.La_TOnOff.Size = new System.Drawing.Size(13, 13);
-            this.La_TOnOff.TabIndex = 18;
-            // 
-            // ProgB_Energiaszint
-            // 
-            this.ProgB_Energiaszint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.ProgB_Energiaszint.Location = new System.Drawing.Point(231, 110);
-            this.ProgB_Energiaszint.Maximum = 1001;
-            this.ProgB_Energiaszint.Name = "ProgB_Energiaszint";
-            this.ProgB_Energiaszint.Size = new System.Drawing.Size(66, 13);
-            this.ProgB_Energiaszint.TabIndex = 16;
-            this.ProgB_Energiaszint.Value = 40;
-            // 
-            // label15
-            // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(155, 110);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 13);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "Energiaszint: ";
-            // 
-            // ProgB_Turbo
-            // 
-            this.ProgB_Turbo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.ProgB_Turbo.Location = new System.Drawing.Point(231, 129);
-            this.ProgB_Turbo.Maximum = 1000;
-            this.ProgB_Turbo.Name = "ProgB_Turbo";
-            this.ProgB_Turbo.Size = new System.Drawing.Size(24, 13);
-            this.ProgB_Turbo.TabIndex = 5;
-            // 
-            // La_Turbo
-            // 
-            this.La_Turbo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.La_Turbo.AutoSize = true;
-            this.La_Turbo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.La_Turbo.Location = new System.Drawing.Point(96, 148);
-            this.La_Turbo.Name = "La_Turbo";
-            this.La_Turbo.Size = new System.Drawing.Size(38, 13);
-            this.La_Turbo.TabIndex = 3;
-            this.La_Turbo.Text = "Space";
-            // 
             // La_GasButton
             // 
-            this.La_GasButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.La_GasButton.AutoSize = true;
             this.La_GasButton.BackColor = System.Drawing.Color.Yellow;
             this.La_GasButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.La_GasButton.Location = new System.Drawing.Point(96, 110);
+            this.La_GasButton.Location = new System.Drawing.Point(79, 92);
             this.La_GasButton.Name = "La_GasButton";
             this.La_GasButton.Size = new System.Drawing.Size(14, 13);
             this.La_GasButton.TabIndex = 2;
             this.La_GasButton.Text = "K";
-            // 
-            // label11
-            // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 148);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(72, 13);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Turbo (be/ki):";
             // 
             // panel2
             // 
@@ -485,8 +428,7 @@ namespace Futocsiga
             // 
             // Bt_Rajt
             // 
-            this.Bt_Rajt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Bt_Rajt.Location = new System.Drawing.Point(448, 143);
+            this.Bt_Rajt.Location = new System.Drawing.Point(323, 87);
             this.Bt_Rajt.Name = "Bt_Rajt";
             this.Bt_Rajt.Size = new System.Drawing.Size(75, 23);
             this.Bt_Rajt.TabIndex = 22;
@@ -495,15 +437,14 @@ namespace Futocsiga
             this.Bt_Rajt.Click += new System.EventHandler(this.Bt_Rajt_Click);
             this.Bt_Rajt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Teszt_KeyUp);
             // 
-            // La_Szamlal
+            // La_ConsolePanel
             // 
-            this.La_Szamlal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.La_Szamlal.AutoSize = true;
-            this.La_Szamlal.Location = new System.Drawing.Point(402, 148);
-            this.La_Szamlal.Name = "La_Szamlal";
-            this.La_Szamlal.Size = new System.Drawing.Size(40, 13);
-            this.La_Szamlal.TabIndex = 23;
-            this.La_Szamlal.Text = "Szünet";
+            this.La_ConsolePanel.AutoSize = true;
+            this.La_ConsolePanel.Location = new System.Drawing.Point(277, 92);
+            this.La_ConsolePanel.Name = "La_ConsolePanel";
+            this.La_ConsolePanel.Size = new System.Drawing.Size(40, 13);
+            this.La_ConsolePanel.TabIndex = 23;
+            this.La_ConsolePanel.Text = "Szünet";
             // 
             // Pb_Rajt
             // 
@@ -535,36 +476,15 @@ namespace Futocsiga
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 110);
+            this.label2.Location = new System.Drawing.Point(14, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 24;
             this.label2.Text = "Léptetés:";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 129);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 13);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Turbófeltöltés:";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Red;
-            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Location = new System.Drawing.Point(95, 129);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(15, 13);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "G";
-            // 
             // nUD_Tav
             // 
-            this.nUD_Tav.Location = new System.Drawing.Point(325, 146);
+            this.nUD_Tav.Location = new System.Drawing.Point(200, 90);
             this.nUD_Tav.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -588,35 +508,123 @@ namespace Futocsiga
             // LaT_Tav
             // 
             this.LaT_Tav.AutoSize = true;
-            this.LaT_Tav.Location = new System.Drawing.Point(291, 150);
+            this.LaT_Tav.Location = new System.Drawing.Point(166, 94);
             this.LaT_Tav.Name = "LaT_Tav";
             this.LaT_Tav.Size = new System.Drawing.Size(29, 13);
             this.LaT_Tav.TabIndex = 28;
             this.LaT_Tav.Text = "Táv:";
             // 
+            // Pn_EnergyUI
+            // 
+            this.Pn_EnergyUI.Controls.Add(this.label4);
+            this.Pn_EnergyUI.Controls.Add(this.label3);
+            this.Pn_EnergyUI.Controls.Add(this.La_TOnOff);
+            this.Pn_EnergyUI.Controls.Add(this.ProgB_Energiaszint);
+            this.Pn_EnergyUI.Controls.Add(this.label15);
+            this.Pn_EnergyUI.Controls.Add(this.ProgB_Turbo);
+            this.Pn_EnergyUI.Controls.Add(this.La_Turbo);
+            this.Pn_EnergyUI.Controls.Add(this.label11);
+            this.Pn_EnergyUI.Location = new System.Drawing.Point(12, 164);
+            this.Pn_EnergyUI.Name = "Pn_EnergyUI";
+            this.Pn_EnergyUI.Size = new System.Drawing.Size(297, 61);
+            this.Pn_EnergyUI.TabIndex = 29;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Red;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label4.Location = new System.Drawing.Point(92, 25);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 13);
+            this.label4.TabIndex = 34;
+            this.label4.Text = "G";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(8, 25);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 13);
+            this.label3.TabIndex = 33;
+            this.label3.Text = "Turbófeltöltés:";
+            // 
+            // La_TOnOff
+            // 
+            this.La_TOnOff.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.La_TOnOff.BackColor = System.Drawing.Color.Red;
+            this.La_TOnOff.Location = new System.Drawing.Point(228, 43);
+            this.La_TOnOff.Name = "La_TOnOff";
+            this.La_TOnOff.Size = new System.Drawing.Size(13, 13);
+            this.La_TOnOff.TabIndex = 32;
+            // 
+            // ProgB_Energiaszint
+            // 
+            this.ProgB_Energiaszint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ProgB_Energiaszint.Location = new System.Drawing.Point(228, 6);
+            this.ProgB_Energiaszint.Maximum = 1001;
+            this.ProgB_Energiaszint.Name = "ProgB_Energiaszint";
+            this.ProgB_Energiaszint.Size = new System.Drawing.Size(66, 13);
+            this.ProgB_Energiaszint.TabIndex = 31;
+            this.ProgB_Energiaszint.Value = 40;
+            // 
+            // label15
+            // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(152, 6);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(70, 13);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "Energiaszint: ";
+            // 
+            // ProgB_Turbo
+            // 
+            this.ProgB_Turbo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ProgB_Turbo.Location = new System.Drawing.Point(228, 25);
+            this.ProgB_Turbo.Maximum = 1000;
+            this.ProgB_Turbo.Name = "ProgB_Turbo";
+            this.ProgB_Turbo.Size = new System.Drawing.Size(24, 13);
+            this.ProgB_Turbo.TabIndex = 29;
+            // 
+            // La_Turbo
+            // 
+            this.La_Turbo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.La_Turbo.AutoSize = true;
+            this.La_Turbo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.La_Turbo.Location = new System.Drawing.Point(93, 44);
+            this.La_Turbo.Name = "La_Turbo";
+            this.La_Turbo.Size = new System.Drawing.Size(38, 13);
+            this.La_Turbo.TabIndex = 28;
+            this.La_Turbo.Text = "Space";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(11, 44);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(72, 13);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "Turbo (be/ki):";
+            // 
             // Teszt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 172);
+            this.ClientSize = new System.Drawing.Size(533, 120);
             this.Controls.Add(this.LaT_Tav);
             this.Controls.Add(this.nUD_Tav);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.La_TOnOff);
-            this.Controls.Add(this.La_Szamlal);
+            this.Controls.Add(this.La_ConsolePanel);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.Bt_Rajt);
             this.Controls.Add(this.La_Position);
             this.Controls.Add(this.La_GasButton);
-            this.Controls.Add(this.ProgB_Energiaszint);
             this.Controls.Add(this.La_Time);
-            this.Controls.Add(this.label15);
             this.Controls.Add(this.Pb_Palya);
-            this.Controls.Add(this.ProgB_Turbo);
-            this.Controls.Add(this.La_Turbo);
-            this.Controls.Add(this.label11);
             this.Name = "Teszt";
             this.Text = "Teszt";
             this.Load += new System.EventHandler(this.Teszt_Load);
@@ -640,6 +648,8 @@ namespace Futocsiga
             ((System.ComponentModel.ISupportInitialize)(this.Pb_Rajt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pb_Cel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUD_Tav)).EndInit();
+            this.Pn_EnergyUI.ResumeLayout(false);
+            this.Pn_EnergyUI.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -651,12 +661,7 @@ namespace Futocsiga
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ProgressBar ProgB_Turbo;
-        private System.Windows.Forms.Label La_Turbo;
         private System.Windows.Forms.Label La_GasButton;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ProgressBar ProgB_Energiaszint;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.ProgressBar progressBar1;
@@ -682,7 +687,6 @@ namespace Futocsiga
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.PictureBox Pb_Palya;
         private System.Windows.Forms.PictureBox Pb_Csiga;
-        private System.Windows.Forms.Label La_TOnOff;
         private System.Windows.Forms.Label La_Time;
         private System.Windows.Forms.Label La_Position;
         private System.Windows.Forms.ListView listView1;
@@ -690,15 +694,22 @@ namespace Futocsiga
         private System.Windows.Forms.ColumnHeader cH_Tav;
         private System.Windows.Forms.ColumnHeader cH_Ido;
         private System.Windows.Forms.Button Bt_Rajt;
-        private System.Windows.Forms.Label La_Szamlal;
+        private System.Windows.Forms.Label La_ConsolePanel;
         private System.Windows.Forms.PictureBox Pb_Rajt;
         private System.Windows.Forms.PictureBox Pb_Cel;
         private System.Windows.Forms.Timer T_StopWatch;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown nUD_Tav;
         private System.Windows.Forms.Label LaT_Tav;
+        private System.Windows.Forms.Panel Pn_EnergyUI;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label La_TOnOff;
+        private System.Windows.Forms.ProgressBar ProgB_Energiaszint;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ProgressBar ProgB_Turbo;
+        private System.Windows.Forms.Label La_Turbo;
+        private System.Windows.Forms.Label label11;
     }
 }

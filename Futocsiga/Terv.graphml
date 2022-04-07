@@ -443,7 +443,6 @@ Név - Delete Button<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Lab
       </data>
     </node>
     <node id="n36">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="155.50215175537937" width="404.65666271544046" x="-271.25492638731566" y="650.3698754246889"/>
@@ -459,7 +458,6 @@ billentyűzetet, vagy egeret tudja használni.<y:LabelModel><y:SmartNodeLabelMod
       </data>
     </node>
     <node id="n37">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="77.66666666666674" width="161.6957644394111" x="-339.41074428086074" y="894.4894894677233"/>
@@ -467,6 +465,28 @@ billentyűzetet, vagy egeret tudja használni.<y:LabelModel><y:SmartNodeLabelMod
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="158.763671875" x="1.4660462822055251" xml:space="preserve" y="22.13216145833337">Fogadott portok elkülönítése 
 egér és billentyű szerint:<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n38">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="70.47097755990279" width="120.79445019252546" x="-210.43271386440063" y="221.96759585050987"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="4" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="57.904296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="120.056640625" x="0.36890478376272995" xml:space="preserve" y="6.283340342451396">1 gombnyomás: 0.5 energia átfolyás
+
+Energia átfolyás korlátozása másodfercenként:
+- Sima: 1/s
+- Turbo: 4/s
+
+*A többlet átfolyni akaró energia a Turbó tartályba csorog
+és ha az megtelik, tíz másodperc múlva felrobban a túlnyomástól.
+
+Turbó használat: Gombnyomás átfolyása 1.5-re növekszik, vagy
+turbó kapcsoló állása szerint.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="rectangle"/>
         </y:ShapeNode>
       </data>
@@ -730,7 +750,6 @@ egér és billentyű szerint:<y:LabelModel><y:SmartNodeLabelModel distance="4.0"
     </edge>
     <edge id="e24" source="n36" target="n37">
       <data key="d8" xml:space="preserve"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

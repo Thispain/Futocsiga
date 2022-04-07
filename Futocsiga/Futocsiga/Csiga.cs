@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Media;
 
 
 namespace Futocsiga
@@ -14,6 +15,7 @@ namespace Futocsiga
         static public event EventHandler Update;
         static public event EventHandler eCel;
         double energia;
+        public string s_Message { get; private set; }
         Stopwatch RaceTime = new Stopwatch();
 
         int position;
@@ -37,7 +39,7 @@ namespace Futocsiga
         }
 
         public bool Inrace { get => inrace; private set => inrace = value; }
-        public Stopwatch RaceTime1 { get => RaceTime; private set => RaceTime = value; }
+        public TimeSpan RaceTime1 { get => RaceTime.Elapsed; }
 
         public Csiga()
         {
@@ -78,25 +80,21 @@ namespace Futocsiga
             Restart();
             veg = tavolsag;
             Inrace = true;
+            s_Message = "Versenyben vagy!";
             eCel?.Invoke(this, EventArgs.Empty);
-            RaceTime1.Restart();
+            RaceTime.Restart();
         }
 
         void Cel()
         {
             Inrace = false;
+            s_Message = "Győztíl!";
             eCel?.Invoke(this, EventArgs.Empty);
-            RaceTime1.Stop();
-            MessageBox.Show("Győztíl!", "LastForm!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            RaceTime.Stop();
+            SystemSounds.Exclamation.Play();
+            // MessageBox.Show("Győztíl!", "LastForm!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
-        void Crash()
-        {
-            Inrace = false;
-            RaceTime1.Stop();
-            eCel?.Invoke(this, EventArgs.Empty);
-            MessageBox.Show("Gratulálok. Elérted az elérhetetlent.\n Vesztettél.");
-        }
 
 
         public void Elore(Keys key)
@@ -106,6 +104,17 @@ namespace Futocsiga
                 Position += 1;
               //  Energia -= 0.5;
             }
+        }
+
+        #region OutDated
+
+        void Crash()
+        {
+            Inrace = false;
+            RaceTime.Stop();
+            s_Message = "Vesztettíl!";
+            eCel?.Invoke(this, EventArgs.Empty);
+            MessageBox.Show("Gratulálok. Elérted az elérhetetlent.\n Vesztettél.");
         }
 
         public bool TurboSwitch(Keys a)
@@ -153,7 +162,7 @@ namespace Futocsiga
             else x = Math.Min(x, a.Maximum - a.Value);
             return x;
         }
-
+        #endregion
 
         double hossz;
         double kezd;

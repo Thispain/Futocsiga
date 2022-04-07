@@ -24,7 +24,7 @@ namespace Futocsiga
 
         public Teszt()
         {
-            RajtT[0] = "Rajt!";
+            RajtT[0] = "Versenyben vagy!";
             RajtT[1] = "Kész!";
             RajtT[2] = "Vigyázz!";
             RajtT[3] = "Felkészülni!";
@@ -90,31 +90,27 @@ namespace Futocsiga
         private void TRajting(object sender, EventArgs e)
         {
             iRajt--;
-            if (iRajt == -1)
-            {
-                iRajt = 4;
-                La_Szamlal.Text = "Verseny";
-                TRajt.Stop();
-                return;
-            }
-            La_Szamlal.Text = RajtT[iRajt];
+            La_ConsolePanel.Text = RajtT[iRajt];
 
             if (iRajt == 0)
             {
                 cs.Rajt(vTavolsag);
+                iRajt = 4;
+                TRajt.Stop();
             }
         }
 
         private void eCeeling(object sender, EventArgs e)
         {
             Bt_Rajt.Visible = LaT_Tav.Visible = nUD_Tav.Visible = !cs.Inrace ? true : false;
-            if (cs.Inrace) cs.RaceTime1.Start();
-            else cs.RaceTime1.Stop();
+            if (cs.Inrace) T_StopWatch.Start();
+            else T_StopWatch.Stop();
+            La_ConsolePanel.Text = cs.s_Message;
         }
 
         private void T_StopWatch_Tick(object sender, EventArgs e)
         {
-            La_Time.Text = cs.RaceTime1.Elapsed.ToString(@"hh\:mm\:ss");
+            La_Time.Text = cs.RaceTime1.ToString(@"hh\:mm\:ss");
         }
 
         private void nUD_Tav_ValueChanged(object sender, EventArgs e)
