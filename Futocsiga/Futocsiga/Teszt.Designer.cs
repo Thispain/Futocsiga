@@ -85,6 +85,8 @@ namespace Futocsiga
             this.ProgB_Turbo = new System.Windows.Forms.ProgressBar();
             this.La_Turbo = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.La_InRace = new System.Windows.Forms.Label();
+            this.Bt_Megszakit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -151,9 +153,9 @@ namespace Futocsiga
             this.cH_Tav,
             this.cH_Ido});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(404, 13);
+            this.listView1.Location = new System.Drawing.Point(404, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(121, 97);
+            this.listView1.Size = new System.Drawing.Size(121, 117);
             this.listView1.TabIndex = 22;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.List;
@@ -175,7 +177,7 @@ namespace Futocsiga
             this.La_GasButton.AutoSize = true;
             this.La_GasButton.BackColor = System.Drawing.Color.Yellow;
             this.La_GasButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.La_GasButton.Location = new System.Drawing.Point(79, 92);
+            this.La_GasButton.Location = new System.Drawing.Point(79, 111);
             this.La_GasButton.Name = "La_GasButton";
             this.La_GasButton.Size = new System.Drawing.Size(14, 13);
             this.La_GasButton.TabIndex = 2;
@@ -391,7 +393,7 @@ namespace Futocsiga
             this.Pb_Palya.BackColor = System.Drawing.Color.Silver;
             this.Pb_Palya.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pb_Palya.BackgroundImage")));
             this.Pb_Palya.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pb_Palya.Location = new System.Drawing.Point(12, 12);
+            this.Pb_Palya.Location = new System.Drawing.Point(12, 31);
             this.Pb_Palya.Name = "Pb_Palya";
             this.Pb_Palya.Size = new System.Drawing.Size(377, 50);
             this.Pb_Palya.TabIndex = 15;
@@ -411,7 +413,7 @@ namespace Futocsiga
             // La_Time
             // 
             this.La_Time.AutoSize = true;
-            this.La_Time.Location = new System.Drawing.Point(291, 65);
+            this.La_Time.Location = new System.Drawing.Point(291, 84);
             this.La_Time.Name = "La_Time";
             this.La_Time.Size = new System.Drawing.Size(49, 13);
             this.La_Time.TabIndex = 20;
@@ -420,7 +422,7 @@ namespace Futocsiga
             // La_Position
             // 
             this.La_Position.AutoSize = true;
-            this.La_Position.Location = new System.Drawing.Point(339, 65);
+            this.La_Position.Location = new System.Drawing.Point(339, 84);
             this.La_Position.Name = "La_Position";
             this.La_Position.Size = new System.Drawing.Size(42, 13);
             this.La_Position.TabIndex = 21;
@@ -428,7 +430,7 @@ namespace Futocsiga
             // 
             // Bt_Rajt
             // 
-            this.Bt_Rajt.Location = new System.Drawing.Point(323, 87);
+            this.Bt_Rajt.Location = new System.Drawing.Point(323, 106);
             this.Bt_Rajt.Name = "Bt_Rajt";
             this.Bt_Rajt.Size = new System.Drawing.Size(75, 23);
             this.Bt_Rajt.TabIndex = 22;
@@ -440,7 +442,7 @@ namespace Futocsiga
             // La_ConsolePanel
             // 
             this.La_ConsolePanel.AutoSize = true;
-            this.La_ConsolePanel.Location = new System.Drawing.Point(277, 92);
+            this.La_ConsolePanel.Location = new System.Drawing.Point(277, 111);
             this.La_ConsolePanel.Name = "La_ConsolePanel";
             this.La_ConsolePanel.Size = new System.Drawing.Size(40, 13);
             this.La_ConsolePanel.TabIndex = 23;
@@ -476,7 +478,7 @@ namespace Futocsiga
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 92);
+            this.label2.Location = new System.Drawing.Point(14, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 24;
@@ -484,7 +486,7 @@ namespace Futocsiga
             // 
             // nUD_Tav
             // 
-            this.nUD_Tav.Location = new System.Drawing.Point(200, 90);
+            this.nUD_Tav.Location = new System.Drawing.Point(200, 109);
             this.nUD_Tav.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -508,7 +510,7 @@ namespace Futocsiga
             // LaT_Tav
             // 
             this.LaT_Tav.AutoSize = true;
-            this.LaT_Tav.Location = new System.Drawing.Point(166, 94);
+            this.LaT_Tav.Location = new System.Drawing.Point(166, 113);
             this.LaT_Tav.Name = "LaT_Tav";
             this.LaT_Tav.Size = new System.Drawing.Size(29, 13);
             this.LaT_Tav.TabIndex = 28;
@@ -610,11 +612,32 @@ namespace Futocsiga
             this.label11.TabIndex = 27;
             this.label11.Text = "Turbo (be/ki):";
             // 
+            // La_InRace
+            // 
+            this.La_InRace.BackColor = System.Drawing.Color.Red;
+            this.La_InRace.Location = new System.Drawing.Point(146, 111);
+            this.La_InRace.Name = "La_InRace";
+            this.La_InRace.Size = new System.Drawing.Size(14, 15);
+            this.La_InRace.TabIndex = 29;
+            // 
+            // Bt_Megszakit
+            // 
+            this.Bt_Megszakit.Location = new System.Drawing.Point(323, 2);
+            this.Bt_Megszakit.Name = "Bt_Megszakit";
+            this.Bt_Megszakit.Size = new System.Drawing.Size(66, 23);
+            this.Bt_Megszakit.TabIndex = 30;
+            this.Bt_Megszakit.Text = "Megszakít";
+            this.Bt_Megszakit.UseVisualStyleBackColor = true;
+            this.Bt_Megszakit.Visible = false;
+            this.Bt_Megszakit.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Teszt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 120);
+            this.ClientSize = new System.Drawing.Size(533, 138);
+            this.Controls.Add(this.Bt_Megszakit);
+            this.Controls.Add(this.La_InRace);
             this.Controls.Add(this.LaT_Tav);
             this.Controls.Add(this.nUD_Tav);
             this.Controls.Add(this.label2);
@@ -711,5 +734,7 @@ namespace Futocsiga
         private System.Windows.Forms.ProgressBar ProgB_Turbo;
         private System.Windows.Forms.Label La_Turbo;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label La_InRace;
+        private System.Windows.Forms.Button Bt_Megszakit;
     }
 }

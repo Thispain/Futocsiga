@@ -59,7 +59,7 @@ namespace Futocsiga
         {
             Pb_Csiga.Left = cs.uPosition(Pb_Rajt, Pb_Cel, Pb_Palya);/* this.Pb_Palya.Width - 18))/ cs.Position +(Pb_Palya.Left + 9);*/  //Csiga Helyzete
             // Mutatók
-            ProgB_Energiaszint.Value = Convert.ToInt32(Math.Floor(cs.Energia));
+           /// ProgB_Energiaszint.Value = Convert.ToInt32(Math.Floor(cs.Energia));
             La_Position.Text = $"{cs.Position}/{vTavolsag}";
 
         }
@@ -73,6 +73,7 @@ namespace Futocsiga
 
         private void Teszt_Load(object sender, EventArgs e)
         {
+            cs.Load();
             Updating(cs, EventArgs.Empty);
         }
 
@@ -106,6 +107,8 @@ namespace Futocsiga
             if (cs.Inrace) T_StopWatch.Start();
             else T_StopWatch.Stop();
             La_ConsolePanel.Text = cs.s_Message;
+            La_InRace.BackColor = (sender as Csiga).Inrace ? Color.Green : Color.Red;
+            Bt_Megszakit.Visible = (sender as Csiga).Inrace ? true : false;
         }
 
         private void T_StopWatch_Tick(object sender, EventArgs e)
@@ -117,6 +120,11 @@ namespace Futocsiga
         {
             vTavolsag = Convert.ToInt32(nUD_Tav.Value);
             Updating(cs, EventArgs.Empty);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            cs.Restart(); 
         }
     }
 }

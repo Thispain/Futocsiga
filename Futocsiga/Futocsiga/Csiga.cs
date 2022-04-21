@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Media;
+using System.IO;
 
 
 namespace Futocsiga
@@ -17,6 +18,18 @@ namespace Futocsiga
         double energia;
         public string s_Message { get; private set; }
         Stopwatch RaceTime = new Stopwatch();
+        List<sTime> timese = new List<sTime>();
+        class sTime
+        {
+            public DateTime datum { get; private set; }
+            public TimeSpan times  {get; private set;}
+
+            public sTime(DateTime datum, TimeSpan times)
+            {
+                this.datum = datum;
+                this.times = times;
+            }
+        }
 
         int position;
         int kezdes, veg = 50 ;
@@ -71,8 +84,12 @@ namespace Futocsiga
 
         public void Restart()
         {
+            Inrace = false;
             Position = 0;
             Energia = 1000;
+            RaceTime.Reset();
+            s_Message = "Szünet";
+            eCel?.Invoke(this, EventArgs.Empty);
         }
 
         public void Rajt(int tavolsag)
@@ -92,10 +109,49 @@ namespace Futocsiga
             eCel?.Invoke(this, EventArgs.Empty);
             RaceTime.Stop();
             SystemSounds.Exclamation.Play();
-            // MessageBox.Show("Győztíl!", "LastForm!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            DialogResult ds = MessageBox.Show($"Győztíl!\n{RaceTime1.ToString(@"hh\:mm\:ss\.ffff", null)}", "LastForm!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            if (ds == DialogResult.OK) this.Restart();
+            timese.Add(new sTime(DateTime.Now, RaceTime.Elapsed));
         }
 
+        public void Save()
+        {
+            using (FileStream fs = new FileStream("Echte.txt", FileMode.Create))
+            {
+                using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
+                {
+                    foreach (var item in timese)
+                    {
+                        sw.WriteLine($"{item.datum};{item.times}");
+                        sw.Flush();
+                    }
+                    sw.Close();
+                }
+                fs.Close();
+            }
+        }
 
+        public void Load()
+        {
+            timese.Clear();
+            string path = Environment.CurrentDirectory + @"\Echte.txt";
+            if (File.Exists(path))
+            {
+                using (FileStream fs = new FileStream(path, FileMode.Open))
+                {
+                    using (StreamReader sw = new StreamReader(fs, Encoding.UTF8))
+                    {
+                        foreach (var item in timese)
+                        {
+                            string[] temp = sw.ReadLine().Split(';');
+                            timese.Add(new sTime(DateTime.Parse(temp[0]), TimeSpan.Parse(temp[1])));
+                        }
+                        sw.Close();
+                    }
+                    fs.Close();
+                }
+            }
+        }
 
         public void Elore(Keys key)
         {
