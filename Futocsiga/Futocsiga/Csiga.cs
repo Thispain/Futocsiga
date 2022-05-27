@@ -56,19 +56,6 @@ namespace Futocsiga
 
         public Csiga()
         {
-            #region Szar
-            /* Random rnd = new Random();
-             var cs = new PictureBox
-             {
-                 Name = "Pb_Csiga_" + rnd.Next(10000, 10000),
-                 Size = new Size(37, 37),
-                // Image = Image.FromFile(@"\Images\Csiga.png"),
-                 //BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch,
-                 Location = new System.Drawing.Point(213, 294),
-                 BackColor = Color.Blue
-             };
-             fs.Controls.Add(cs);*/
-            #endregion
             Inrace = false;
 
             Energia = 1000;
@@ -200,15 +187,6 @@ namespace Futocsiga
             else
             {
                 (sender as Timer).Stop();
-            }
-        }
-
-        public void Feltoltodes(Keys key)
-        {
-            if (key == Keys.Up)
-            {
-                Fuel f = new Fuel();
-                f.ShowDialog();
             }
         }
 

@@ -35,10 +35,6 @@ namespace Futocsiga
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.cH_Nev = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.cH_Tav = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.cH_Ido = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.La_GasButton = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
@@ -144,33 +140,6 @@ namespace Futocsiga
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(239, 201);
             this.panel1.TabIndex = 9;
-            // 
-            // listView1
-            // 
-            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.cH_Nev,
-            this.cH_Tav,
-            this.cH_Ido});
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(404, 12);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(121, 117);
-            this.listView1.TabIndex = 22;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
-            // 
-            // cH_Nev
-            // 
-            this.cH_Nev.Text = "Név";
-            // 
-            // cH_Tav
-            // 
-            this.cH_Tav.Text = "Táv";
-            // 
-            // cH_Ido
-            // 
-            this.cH_Ido.Text = "Idő";
             // 
             // La_GasButton
             // 
@@ -635,14 +604,13 @@ namespace Futocsiga
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 138);
+            this.ClientSize = new System.Drawing.Size(406, 138);
             this.Controls.Add(this.Bt_Megszakit);
             this.Controls.Add(this.La_InRace);
             this.Controls.Add(this.LaT_Tav);
             this.Controls.Add(this.nUD_Tav);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.La_ConsolePanel);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.Bt_Rajt);
             this.Controls.Add(this.La_Position);
             this.Controls.Add(this.La_GasButton);
@@ -712,10 +680,6 @@ namespace Futocsiga
         private System.Windows.Forms.PictureBox Pb_Csiga;
         private System.Windows.Forms.Label La_Time;
         private System.Windows.Forms.Label La_Position;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader cH_Nev;
-        private System.Windows.Forms.ColumnHeader cH_Tav;
-        private System.Windows.Forms.ColumnHeader cH_Ido;
         private System.Windows.Forms.Button Bt_Rajt;
         private System.Windows.Forms.Label La_ConsolePanel;
         private System.Windows.Forms.PictureBox Pb_Rajt;

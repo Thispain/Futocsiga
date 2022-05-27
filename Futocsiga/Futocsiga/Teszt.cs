@@ -68,7 +68,6 @@ namespace Futocsiga
         {
             cs.Elore(e.KeyCode);
             La_TOnOff.BackColor = cs.TurboSwitch(e.KeyCode)? Color.Green : Color.Red;
-            cs.Feltoltodes(e.KeyCode);
         }
 
         private void Teszt_Load(object sender, EventArgs e)
